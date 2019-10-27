@@ -28,8 +28,8 @@ It is a 2 part approach, consisting of:
   - Track patients' progress remotely and cater for more targeted care during actual therapy session
 
 ## Mockups
+<img src="https://github.com/ihwk1996/hakunamatata/blob/master/assets/therapist_website_mock.png" width="600"/>
 <img src="https://github.com/ihwk1996/hakunamatata/blob/master/assets/mobile_phone_mock.png" width="400"/>
-<img src="https://github.com/ihwk1996/hakunamatata/blob/master/assets/therapist_website_mock.png" width="400"/>
 <img src="https://github.com/ihwk1996/hakunamatata/blob/master/assets/sentiment_analysis_mock.gif" width="400"/>
 
 ## Moving Forward
