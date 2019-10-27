@@ -7,20 +7,11 @@ from textblob import TextBlob
 import time
 import os
 
-
-
-
-
 app = Flask(__name__)
 CORS(app)
 
 @app.route('/', methods=["POST"])
 def hello_world():
-    print('ada')
-    print(request.get_data())
-    print(reques.data)
-    print(request.get_json())
-    print(request.json)
     return 'Hello, World!'
 
 @app.route('/audio',methods=["POST"])
@@ -33,9 +24,7 @@ def audio():
     print(type(x))
     print(x['url'])
     url = x['url']
-    # r = requests.get(url)
-    # print(type(r))
-    # print(r)
+
     try:
         r = sr.Recognizer()
         died = sr.AudioFile('/Users/ivanho/Downloads/hackhlth.wav')
@@ -62,5 +51,4 @@ def audio():
         'polarity': p,
         'para': x
     }
-    # resp = make_response(data) #here you could use make_response(render_template(...)) too
     return jsonify(data)
