@@ -32,6 +32,7 @@ It is a 2 part approach, consisting of:
 <img src="https://github.com/ihwk1996/hakunamatata/blob/master/assets/mobile_phone_mock.png" width="400"/>
 <img src="https://github.com/ihwk1996/hakunamatata/blob/master/assets/sentiment_analysis_mock.gif" width="400"/>
 
+Presentation Slides: https://github.com/ihwk1996/hakunamatata/blob/master/slides/Hakuna%20Matata%20Slides.pdf
 ## Moving Forward
  - Using Mobile VR (eg. Google Cardboard) for even lower costs
  - Using ML and NLP from personalized responses from Virtual Therapist for 2 way conversation
